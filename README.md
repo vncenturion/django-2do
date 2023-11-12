@@ -1,6 +1,8 @@
 # django-2do
 atividade prática sobre kubernetes
 
+![tela da aplicação](tela.png)
+
 ## pré-requisitos
 
 ## instalando kubectl e minikube
