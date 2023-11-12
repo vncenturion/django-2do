@@ -12,15 +12,20 @@ Essa é uma aplicação Python/Django que roda um banco de dados Sqlite embarcad
 
 Na atividade é solicitado ao aluno que:
 
- 1. Faça a construção da imagem docker da aplicação (lembre de rodar "eval $(minikube docker-env)" para usar o docker do ambiente do minikube
+ 1. Faça a construção da imagem docker da aplicação (lembre de rodar "eval $(minikube docker-env)" para usar o docker do ambiente do minikube;
     
- 1. Crie os manifestos Kubernetes para implantar a aplicação django-todo e externalizar o acesso: Deployment, service, ingress
+ 1. Crie os manifestos Kubernetes para implantar a aplicação django-todo e externalizar o acesso: Deployment, service, ingress;
     
  1. Pesquise e indique como seria possível manter estado em múltiplas execuções, visto que a aplicação armazena os dados em um sqlite rodando no próprio container.
     
 
 
 ## pré-requisitos
+
+ 1. Git;
+ 2. Docker;
+ 3. Virtualbox;
+ 4. Habilitar virtualização aninhada (quando utilizando máquina virtual)
 
 ## instalando kubectl e minikube
 
