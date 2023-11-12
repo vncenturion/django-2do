@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: django-todo-service
+spec:
+  selector:
+    app: django-todo
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: NodePort  # teste para expor porta externamente
