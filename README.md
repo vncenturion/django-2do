@@ -31,6 +31,28 @@ Na atividade é solicitado ao aluno que:
 
 ## projeto
 
+  1. Clone o repositório
+     ```console
+        git clone https://github.com/diegoep/django-todo
+        cd django-todo
+     ```
+
+  1. Ative o ambiente do minikube
+     ```console
+        eval $(minikube docker-env)
+     ```
+
+  1. Construa a imagem Docker
+     ```console
+        docker build -t django-todo:latest .
+     ```
+
+## elaboração dos manifestos
+
+  1. deployment
+  2. service
+  3. ingress
+
 ## deployment
 
 Iniciar deployment:
