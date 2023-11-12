@@ -1,5 +1,9 @@
 # django-2do: atividade prática sobre kubernetes
 
+Atividade desenvolvida na disciplina de virtualização do curso superior de tecnologia em redes de computadores do IFPB (2023).
+
+## Instruções
+
 Faça o deployment em sistema de orquestração de conteineres local (minikube) da aplicação "django-todo", no repositório https://github.com/diegoep/django-todo.
 
 Essa é uma aplicação Python/Django que roda um banco de dados Sqlite embarcado na própria aplicação.
