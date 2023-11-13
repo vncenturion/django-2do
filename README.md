@@ -2,6 +2,8 @@
 
 Atividade desenvolvida na disciplina de virtualização do curso superior de tecnologia em redes de computadores do IFPB (2023).
 
+A prática foi realizada em máquina virtual ubuntu 22.04 LTS, 4Gb ram, 2 CPU, 100GB SSD, sobre VMWARE-WORKSTATION, v. 17PRO em hospedeiro WINDOWS 11 home.
+
 ## Instruções
 
 Faça o deployment em sistema de orquestração de conteineres local (minikube) da aplicação "django-todo", no repositório https://github.com/diegoep/django-todo.
